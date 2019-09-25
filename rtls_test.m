@@ -1,0 +1,11 @@
+n=200;
+[A,B,x]=heat(n,1);
+L=eye(n);
+lam=0.0001;
+[ha,hx,c]=alternatingRegularization(A,B,L,lam);
+disp(x);
+disp(hx);
+disp(tx);
+[tx,~]=regression(A,B);
+[C,~]=totalLeastSquare(A,B);
+disp(C(:,201));

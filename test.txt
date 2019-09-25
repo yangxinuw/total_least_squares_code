@@ -1,0 +1,17 @@
+    "count sketch"    "+"    "count sketch"    ":"    "4.3185"
+
+    "count sketch"    "+"    "leverage score"    ":"    "6.1272"
+
+    "count sketch"    "+"    "gaussian"    ":"    "3.4955"
+
+    "leverage score"    "+"    "count sketch"    ":"    "6.4958"
+
+    "leverage score"    "+"    "leverage score"    ":"    "7.875"
+
+    "leverage score"    "+"    "gaussian"    ":"    "5.0603"
+
+    "gaussian"    "+"    "count sketch"    ":"    "2.6928"
+
+    "gaussian"    "+"    "leverage score"    ":"    "4.365"
+
+    "gaussian"    "+"    "gaussian"    ":"    "1.1866"
